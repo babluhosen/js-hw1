@@ -1,0 +1,14 @@
+
+/*common start */
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000 !important;
+}
+.btnsize button{
+    width: 80px;
+    height: 40px;
+color: black;
+background-color: aqua;
+}

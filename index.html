@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+    <!--  meta tags (meta tags generate) -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="JS">
+    <meta name="description" content="personal portfolio">
+    <meta name="keywords" content="html ,portfolio">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Bablu">
+    <!-- CSS links-->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+     <!--google font-->
+    <!--icon link-->
+     <script src="https://kit.fontawesome.com/5084c341c3.js" crossorigin="anonymous"></script>
+      <!--icon link-->
+    <title>JS</title>
+  </head>
+  <body>
+   <div class="container">
+    <div class="row text-center mt-5">
+      <h2 class="text-center mb-5 bg-success">JavaScript</h2>
+      <div class="col-lg-3">
+        <p>Button Change by Id</p>
+        <button type="button" class="btn btn-dark " onclick="changebyid()">Click Here</button>
+        <p id="demo1"></p>
+        
+      </div>
+      <div class="col-lg-3">
+        <p>Button Change by Id</p>
+        <p id="demo2"></p>
+
+      </div>
+      <div class="col-lg-3">
+        <p>2 text will be changed by Name</p>
+        <button type="button" class="btn btn-dark" ondblclick="changebyname()">dblClick Here</button>
+        <p class="demo3">Hello0</p>
+        <p class="demo3">Hello1</p>
+        <p class="demo3">Hello2</p>
+        <p class="demo3">Hello3</p>
+      </div>
+      <div class="col-lg-3">
+        <p>Mouses</p>
+        <button type="button" class="btn btn-dark" onmousemove="mousechange()">mouse move</button>
+        <p id="mchangs"></p>
+        <button type="button" class="btn btn-dark" onmousedown="mousechange()">mouse down</button>
+        <p id="mdown"></p>
+        <button type="button" class="btn btn-dark" onmouseleave="mousechange()">mouse leave</button>
+        <p id="mleaves"></p>
+      </div>
+      
+      <h2 class="text-center mb-5 bg-success"> operator, events , arrary  </h2>
+      <div class="col-lg-3">
+        <h2>Var(5+10) using</h2>
+        <p id="v1"></p>
+      </div>
+      <div class="col-lg-3">
+       
+        <h2>Var (5*10) using</h2>
+        <p id="v2"></p>
+      </div>
+      <div class="col-lg-3">
+        <h2>Var (20-10) using</h2>
+        <p id="v3"></p>
+      </div>
+      <div class="col-lg-3">
+        <h2>Var (20/10) using</h2>
+        <p id="v4"></p>
+      </div>
+      <div class="col-lg-3">
+     <button type="button" class="btn btn-dark " onclick="changeonclick()">Click increment</button>
+        <p id="ir"></p>
+      </div>
+      <div class="col-lg-3">
+        <h2>Dcrement</h2>
+           <p id="dr"></p>
+         </div>
+         <div class="col-lg-3">
+          <h2>exponentiation</h2>
+             <p id="m"></p>
+           </div>
+           <div class="col-lg-3">
+            <h2> precedence(10*5)/4</h2>
+               <p id="opp"></p>
+             </div>
+             <div class="col-lg-3">
+              <button type="button" class="btn btn-dark " onclick="boolencheeck()">Boolen test(5==5)</button>
+                 <p id="bt"></p>
+               </div>
+               <div class="col-lg-3">
+                <button type="button" class="btn btn-dark " onclick="boolencheeck()">Boolen test(5==6)</button>
+                   <p id="bl"></p>
+                 </div>
+                 <div class="col-lg-3">
+                   <button onclick="this.innerHTML=Date()">The time is(events date)?</button>
+                  </div>
+                  <div class="col-lg-3">
+                    <button type="button" class="btn btn-dark " onclick="arrarycheck()">Arrary check</button>
+                    <p id="ar"></p>
+                   </div>
+     </div>    
+    </div>
+   </div>
+  </body>
+ 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

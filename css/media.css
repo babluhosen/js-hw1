@@ -1,0 +1,289 @@
+ /*Extra small devices portrait phones, less than 576px*/
+@media (max-width: 575.98px) { 
+    .menu ul li a {
+        
+        padding: 0 10px !important;
+        margin-bottom: 10px
+    }
+    
+/*slider start*/
+.slider_background{
+    padding-bottom: 100px !important;
+}
+.s_icon{
+
+}
+.c_ind{
+    bottom: -60px;
+}
+.carousel-indicators [data-bs-target] {
+ 
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.s_text{
+   margin-top: 0px;
+
+}
+.s_text h1{
+    font-size: 25px;
+
+}
+.s_text h2{
+  margin: 10px 0;
+  font-size: 18px;
+
+}
+.s_text p{
+    margin-bottom: 20pxpx;
+    
+    
+}
+.s_icon {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.s_icon ul li {
+  margin-right: 20px !important;
+  
+
+}
+.s_icon ul li i {
+    font-size: 35px;
+   
+
+}
+.c_padding{
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+.c_h1 {
+ 
+margin-bottom: 10px;
+font-size: 25px;
+}
+.c_p {
+    font-size: 17px;
+    line-height: 25px;
+  
+}
+.f_item{
+    margin-top:30px;
+}
+.f_icon i{
+    margin-top: 2px;
+    font-size: 50px;
+    color: #010101;
+
+}
+.f_icon{
+    text-align: center;
+
+}
+.f_text{
+    text-align: center;
+   
+   }
+   .f_icon i:hover{
+    transform: scale(.8);
+    }
+.c_imput{
+    height: 45px;
+    padding: 10px 10px;
+}  
+.c_submit{
+  
+    height: 45px;
+  
+
+}
+/* contact icon */
+.c_icon li{
+    margin-right: 20px !important;
+
+}
+.f_1{
+    text-align: center;
+   
+    
+}
+.f_2{
+    text-align: center;
+    padding-bottom: 40px
+}
+}
+ /*slider end*/
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+    .s_icon {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+   .menu ul li a {
+        
+        padding: 0 10px !important;
+        margin-bottom: 10px
+    }
+/*slider start*/
+.slider_background{
+    padding-bottom: 100px !important;
+}
+.c_ind{
+    bottom: -60px;
+}
+.carousel-indicators [data-bs-target] {
+ 
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.s_text{
+   margin-top: 0px;
+
+}
+.s_text h1{
+    font-size: 25px;
+
+}
+.s_text h2{
+  margin: 10px 0;
+  font-size: 18px;
+
+}
+.s_text p{
+    margin-bottom: 20pxpx;
+    
+    
+}
+.s_icon{
+
+}
+.s_icon ul li {
+  margin-right: 20px !important;
+  
+
+}
+.s_icon ul li i {
+    font-size: 35px;
+   
+
+}
+.c_padding{
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+.c_p {
+   margin-bottom: 15px;
+   font-size: 25px;
+}
+.f_item{
+    margin-top:30px;
+}
+.f_icon i{
+    margin-top: 2px;
+    font-size: 50px;
+
+}
+.f_text{
+ text-align: center;
+
+}
+.f_icon i:hover{
+    transform: scale(.8);
+    }
+    .c_imput{
+        height: 45px;
+        padding: 10px 10px;
+    }  
+    .c_submit{
+      
+        height: 45px;
+    }
+/*slider start*/
+/* contact icon */
+.c_icon li{
+    margin-right: 25px !important;
+
+}
+.f_1{
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+.f_2{
+    text-align: center;
+    padding-bottom: 40px
+}
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .menu ul li a {
+        
+        padding: 0 10px !important;
+        margin-bottom: 10px
+    }
+    .c_padding{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    
+    }
+    .f_item{
+        margin-top:30px;
+    }
+    .f_icon i{
+        margin-top: 2px;
+        font-size: 50px;
+    
+    }
+    .f_icon i:hover{
+        transform: scale(.8);
+        }
+        .c_imput{
+            height: 45px;
+            padding: 10px 10px;
+        }  
+        .c_submit{
+          
+            height: 45px;
+        }
+  /* contact icon */
+.c_icon li{
+    margin-right: 25px !important;
+
+}
+/*footer*/
+footer{
+     padding-bottom: 10px;
+}
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .c_icon li{
+        margin-right: 25px !important;
+    
+    }
+    footer{
+        padding-bottom: 20px;
+   }
+ }
+ /*Extra large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1200px) and (max-width: 1399.98px) { 
+  
+  }
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+    footer{
+        padding-bottom: 20px;
+   }
+  
+}
